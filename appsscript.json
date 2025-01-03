@@ -1,0 +1,32 @@
+{
+  "timeZone": "America/Argentina/Buenos_Aires",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_ACCESSING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "LIMPIADO",
+      "functionName": "limpiado",
+      "defaultShortcut": "Ctrl+Alt+Shift+2"
+    }, {
+      "menuName": "PEGADO",
+      "functionName": "pegado",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    }, {
+      "menuName": "generatepdf",
+      "functionName": "PDF",
+      "defaultShortcut": "Ctrl+Alt+Shift+3"
+    }, {
+      "menuName": "IMPRIMIR",
+      "functionName": "imprimirPlanillas"
+    }, {
+      "menuName": "Generar Planillas",
+      "functionName": "generarPlanillas"
+    }]
+  }
+}
